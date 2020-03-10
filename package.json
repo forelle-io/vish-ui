@@ -1,12 +1,18 @@
 {
   "name": "vish-ui",
-  "version": "0.1.0",
+  "author": "g7tro4w",
+  "license": "UNLICENSED",
+  "version": "0.1.2",
   "private": false,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build --target lib --name vish-ui ./src/index.js",
     "lint": "vue-cli-service lint"
   },
+  "main": "./dist/vish-ui.common.js",
+  "files": [
+    "dist/*"
+  ],
   "dependencies": {
     "core-js": "^3.6.4",
     "vue": "^2.6.11"
