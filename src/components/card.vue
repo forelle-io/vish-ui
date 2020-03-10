@@ -11,7 +11,7 @@
 </template>
 <script>
 export default {
-    name: 'v-card',
+    name: 'vish-card',
     props: {
         flat: {
             type: Boolean,

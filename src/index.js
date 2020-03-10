@@ -3,7 +3,7 @@ import UICard from './components/card.vue'
 
 export default {
     install (Vue) {
-        Vue.component('ui-card', UICard)
-        Vue.component('ui-button', UIButton)
+        Vue.component('vish-card', UICard)
+        Vue.component('vish-button', UIButton)
     }
 }
