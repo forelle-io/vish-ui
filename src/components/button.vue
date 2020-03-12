@@ -5,7 +5,8 @@
       :class="[
         'v-button',
         { 'v-button_rounded': rounded },
-        `v-button_${variant}`
+        `v-button_${variant}`,
+        { 'v-button_block': block }
       ]"
     >
         <slot></slot>
@@ -68,5 +69,9 @@
   .v-button_primary {
      color: #FFF;
      background-color: #0077FF;
+  }
+  .v-button_block {
+     width: 100%;
+     display: block;
   }
 </style>

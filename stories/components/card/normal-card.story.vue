@@ -1,24 +1,24 @@
 <template>
     <div>
         <div class="story-row">
-            <ui-card>
+            <vish-card>
                 Normal card
-            </ui-card>
+            </vish-card>
         </div>
         <div class="story-row">
-            <ui-card flat>
+            <vish-card flat>
                 Flat card
-            </ui-card>
+            </vish-card>
         </div>
         <div class="story-row">
-            <ui-card full-width>
+            <vish-card full-width>
                 Full-width card
-            </ui-card>
+            </vish-card>
         </div>
         <div class="story-row">
-            <ui-card flat full-width>
+            <vish-card flat full-width>
                 Flat, full-width card
-            </ui-card>
+            </vish-card>
         </div>
     </div>
 </template>
@@ -28,7 +28,7 @@ import Card from '../../../src/components/card'
 export default {
   name: "normal-card.story",
   components: {
-    'ui-card': Card
+    'vish-card': Card
   }
 }
 </script>
